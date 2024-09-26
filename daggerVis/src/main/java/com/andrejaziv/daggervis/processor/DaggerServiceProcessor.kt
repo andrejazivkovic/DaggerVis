@@ -10,7 +10,6 @@ import com.google.devtools.ksp.symbol.KSClassDeclaration
 import guru.nidi.graphviz.engine.Format
 import guru.nidi.graphviz.engine.Graphviz
 import guru.nidi.graphviz.parse.Parser
-import java.util.Arrays.stream
 
 internal class DaggerServiceProcessor(
     private val logger: KSPLogger,

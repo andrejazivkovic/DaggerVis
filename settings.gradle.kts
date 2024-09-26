@@ -1,6 +1,7 @@
 pluginManagement {
     repositories {
         google()
+        mavenLocal()
         mavenCentral()
         gradlePluginPortal()
     }
@@ -13,5 +14,5 @@ dependencyResolutionManagement {
         maven { url = uri("https://jitpack.io") }
     }
 }
-rootProject.name = "DaggerGraphViz"
+rootProject.name = "DaggerGraphVis"
 include(":app")
