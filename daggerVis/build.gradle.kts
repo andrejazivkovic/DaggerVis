@@ -17,6 +17,10 @@ java {
     targetCompatibility = JavaVersion.VERSION_21
 }
 
+kotlin {
+    jvmToolchain(21)
+}
+
 publishing {
     publications {
         create<MavenPublication>("mavenJava") {
