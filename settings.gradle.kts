@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "DaggerGraphVis"
 include(":app")
+include(":daggerVis")

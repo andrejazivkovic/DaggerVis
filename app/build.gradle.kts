@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.org.jetbrains.kotlin.android)
     alias(libs.plugins.composeCompiler)
     alias(libs.plugins.ksp)
+    `maven-publish`
 }
 
 android {
