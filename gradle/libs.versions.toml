@@ -15,6 +15,7 @@ graphvizKotlin = "0.18.1"
 dagger = "2.51.1"
 kotlinpoet = "1.18.1"
 kotlin = "2.0.0"
+agp = "8.6.1"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
@@ -44,3 +45,5 @@ org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.re
 org-jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "org-jetbrains-kotlin-jvm" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp"}
 composeCompiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+
