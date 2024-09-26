@@ -51,7 +51,7 @@ publishing {
             from(components.findByName("release") ?: components.findByName("debug"))
             groupId = "com.github.andrejazivkovic"
             artifactId = "daggerVis"
-            version = "1.0.8"
+            version = "1.0.9"
         }
     }
 }
