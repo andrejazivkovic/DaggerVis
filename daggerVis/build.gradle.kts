@@ -25,9 +25,6 @@ publishing {
     publications {
         create<MavenPublication>("mavenJava") {
             from(components.findByName("java"))
-            groupId = "com.github.andrejazivkovic"
-            artifactId = "daggerVis"
-            version = "1.0.10"
         }
     }
 }
