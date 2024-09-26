@@ -1,5 +1,6 @@
 [versions]
 com-android-application = "8.6.1"
+daggervis = "1.0.0"
 org-jetbrains-kotlin-android = "1.7.20"
 core-ktx = "1.9.0"
 junit = "4.13.2"
@@ -17,6 +18,7 @@ kotlin = "2.0.0"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+daggervis = { module = "com.github.andrejazivkovic:DaggerVis", version.ref = "daggervis" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
