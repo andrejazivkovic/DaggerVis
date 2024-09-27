@@ -24,9 +24,7 @@ Include the library in your `build.gradle` file:
 
 Add the following dependency to the `dependencies` section in your module-level `build.gradle` file:
 
-`dependencies { 
-    ksp("com.github.andrejazivkovic:DaggerVis:1.0.12")
-}`
+`ksp("com.github.andrejazivkovic:DaggerVis:1.0.12")`
 
 ## Usage
 - After adding the dependency, sync your project with Gradle files.
