@@ -44,7 +44,12 @@ module-x/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── Dagger-Graph-(component_y).svg  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── ...
 
-
+- Example from the test app:
+     
+<img src="https://github.com/andrejazivkovic/DaggerVis/blob/master/app/src/main/res/drawable/Dagger-Component-Graph-Main.SVG" 
+         alt="Profile Picture" 
+         style="border-radius: 30%; width: 300px; height: 300px; object-fit: cover;"/>
+         
 ## License
 
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
