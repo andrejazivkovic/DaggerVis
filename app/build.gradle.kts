@@ -55,6 +55,7 @@ android {
 dependencies {
     implementation(libs.dagger)
     ksp(libs.dagger.compiler)
+    ksp(libs.daggervis)
     implementation(libs.core.ktx)
     implementation(libs.lifecycle.runtime.ktx)
     implementation(libs.activity.compose)
