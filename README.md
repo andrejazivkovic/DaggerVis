@@ -46,9 +46,9 @@ module-x/
 
 - Example from the test app:
      
-<img src="https://github.com/andrejazivkovic/DaggerVis/blob/master/app/src/main/res/drawable/Dagger-Component-Graph-Main.SVG" 
+<img src="https://github.com/andrejazivkovic/DaggerVis/blob/master/app/src/main/res/drawable/dagger_graph_main.png" 
          alt="Profile Picture" 
-         style="border-radius: 30%; width: 300px; height: 300px; object-fit: cover;"/>
+         style="border-radius: 30%; width: 200px; height: 200px; object-fit: cover;"/>
          
 ## License
 
