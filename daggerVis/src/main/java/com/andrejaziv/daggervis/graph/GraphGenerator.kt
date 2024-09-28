@@ -1,6 +1,6 @@
-package com.andrejaziv.daggervis.helpers
+package com.andrejaziv.daggervis.graph
 
-import com.andrejaziv.daggervis.helpers.DaggerComponentGraphGenerator.Companion.PACKAGE_NAME
+import com.andrejaziv.daggervis.graph.DaggerComponentGraphGenerator.Companion.PACKAGE_NAME
 import com.google.devtools.ksp.processing.CodeGenerator
 import com.google.devtools.ksp.processing.Dependencies
 import com.google.devtools.ksp.processing.KSPLogger
@@ -13,7 +13,7 @@ internal sealed class GraphGenerator(
     private val logger: KSPLogger,
     private val codeGenerator: CodeGenerator
 ) {
-    internal abstract fun createGraph(annotations: Sequence<KSClassDeclaration>)
+    internal abstract fun generateGraphs(classDeclarations: Sequence<KSClassDeclaration>)
 
     internal fun generateSvg(
         dotContent: String,
@@ -28,8 +28,8 @@ internal sealed class GraphGenerator(
                 packageName = PACKAGE_NAME,
                 fileName = "$graphNamePrefix-$graphNameExtension",
                 extensionName = format.name
-            ).use {
-                Graphviz.fromGraph(graph).render(Format.SVG).toOutputStream(it)
+            ).use { stream ->
+                Graphviz.fromGraph(graph).render(Format.SVG).toOutputStream(stream)
             }
             logger.info("SVG generated successfully for $graphNameExtension")
         } catch (e: Exception) {

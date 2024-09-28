@@ -5,7 +5,7 @@ import com.google.devtools.ksp.processing.SymbolProcessor
 import com.google.devtools.ksp.processing.SymbolProcessorEnvironment
 import com.google.devtools.ksp.processing.SymbolProcessorProvider
 
-class DaggerGraphProcessorProvider : SymbolProcessorProvider {
+internal class DaggerGraphProcessorProvider : SymbolProcessorProvider {
     override fun create(environment: SymbolProcessorEnvironment): SymbolProcessor {
         return DaggerServiceProcessor(
             logger = environment.logger,
