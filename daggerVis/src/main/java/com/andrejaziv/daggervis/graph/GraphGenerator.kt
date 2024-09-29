@@ -24,7 +24,7 @@ internal sealed class GraphGenerator(
         try {
             val graph = Parser().read(dotContent)
             codeGenerator.createNewFile(
-                dependencies = Dependencies(true),
+                dependencies = Dependencies.ALL_FILES,
                 packageName = PACKAGE_NAME,
                 fileName = "$graphNamePrefix-$graphNameExtension",
                 extensionName = format.name
