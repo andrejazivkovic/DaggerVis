@@ -1,5 +1,5 @@
 <div style="display: flex; align-items: center;">
-    <h1 style="margin-right: 10px;">(KSP) Dagger Graph Visualization Library 🥳</h1>
+    <h1 style="margin-right: 10px;">(KSP) Dagger Graph Visualization Library</h1>
     <img src="https://github.com/andrejazivkovic/DaggerVis/blob/master/app/src/main/res/drawable/dagger_graph_vis.jpeg?raw=true" 
          alt="Profile Picture" 
          style="border-radius: 30%; width: 200px; height: 200px; object-fit: cover;"/>
