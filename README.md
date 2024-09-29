@@ -15,6 +15,7 @@ This library provides a way to visualize Dagger dependency graphs in your Androi
 
 - **Graphviz:** To use this library, ensure you have Graphviz installed. You can download it from [here](https://graphviz.org/download/).
 - **Java Version:** This library operates on Java 21. Ensure that your project is configured to use this version or higher.
+- **Dagger version:** Make sure you are using Dagger 2.48 (or above) that is KSP supported.
 
 ## Installation
 
