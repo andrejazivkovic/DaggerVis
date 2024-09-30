@@ -15,7 +15,7 @@ internal sealed class GraphGenerator(
 ) {
     internal abstract fun generateGraphs(classDeclarations: Sequence<KSClassDeclaration>)
 
-    internal fun generateSvg(
+    internal fun generateFile(
         dotContent: String,
         graphNamePrefix: String,
         graphNameExtension: String,
@@ -29,7 +29,7 @@ internal sealed class GraphGenerator(
                 fileName = "$graphNamePrefix-$graphNameExtension",
                 extensionName = format.name
             ).use { stream ->
-                Graphviz.fromGraph(graph).render(Format.SVG).toOutputStream(stream)
+                Graphviz.fromGraph(graph).render(format).toOutputStream(stream)
             }
             logger.info("SVG generated successfully for $graphNameExtension")
         } catch (e: Exception) {
