@@ -44,7 +44,7 @@ internal class DaggerComponentGraphGenerator(
             componentDependenciesByModule[componentName] = componentDependenciesNames
 
             //Create separate graph for every component and its dependencies
-            generateSvg(
+            generateFile(
                 dotContent = createGraphDot(mapOf(componentName to componentDependenciesNames)),
                 graphNamePrefix = COMPONENT_GRAPH_NAME_PREFIX,
                 graphNameExtension = componentName,
@@ -53,7 +53,7 @@ internal class DaggerComponentGraphGenerator(
         }
 
         //Create top level graph representing all the dependencies
-        generateSvg(
+        generateFile(
             dotContent = createGraphDot(componentDependenciesByModule),
             graphNamePrefix = COMPONENT_GRAPH_NAME_PREFIX,
             graphNameExtension = MAIN_DAGGER_COMPONENT_GRAPH_NAME_PREFIX,
