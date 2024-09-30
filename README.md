@@ -25,7 +25,8 @@ Include the library in your `build.gradle` file:
 
 Add the following dependency to the `dependencies` section in your module-level `build.gradle` file:
 
-`ksp("com.github.andrejazivkovic:DaggerVis:1.0.16")`
+`ksp("com.github.andrejazivkovic:DaggerVis:1.0.16")` <br>
+`implementation("guru.nidi:graphviz-kotlin:0.18.1")`
 
 ## Usage
 - After adding the dependency, sync your project with Gradle files.
