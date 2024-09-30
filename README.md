@@ -1,5 +1,5 @@
 <div style="display: flex; align-items: center;">
-    <h1 style="margin-right: 10px;">(KSP) Dagger Graph Visualization Library</h1>
+    <h1 style="margin-right: 10px;">Dagger Graph Visualization Library (KSP)</h1>
     <img src="https://github.com/andrejazivkovic/DaggerVis/blob/master/app/src/main/res/drawable/dagger_graph_vis.jpeg?raw=true" 
          alt="Profile Picture" 
          style="border-radius: 30%; width: 200px; height: 200px; object-fit: cover;"/>
@@ -25,7 +25,7 @@ Include the library in your `build.gradle` file:
 
 Add the following dependency to the `dependencies` section in your module-level `build.gradle` file:
 
-`ksp("com.github.andrejazivkovic:DaggerVis:1.0.12")`
+`ksp("com.github.andrejazivkovic:DaggerVis:1.0.16")`
 
 ## Usage
 - After adding the dependency, sync your project with Gradle files.
